@@ -1,0 +1,142 @@
+
+body, html{
+    background: #e2e8f0;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: orange;        /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: blue;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid orange;  /* creates padding around scroll thumb */
+  }
+.divTodo{
+    display: flex;
+    min-height: 200px;
+    height: fit-content;
+    background: #e2e8f0;
+    border-radius: 5%;
+    margin-bottom: 5px;
+}
+.divProcess{
+    display: flex;
+    min-height: 200px;
+    height: fit-content;
+    background: #e2e8f0;
+    border-radius: 5%;
+    margin-bottom: 5px;
+}
+.divDone{
+    display: flex;
+    min-height: 200px;
+    height: fit-content;
+    background: #e2e8f0;
+    border-radius: 5%;
+    margin-bottom: 5px;
+
+}
+.todoList{
+    width: 100%;
+    background: white;
+}
+.inProgressList{
+    width: 100%;
+    background: white;
+    min-height: 200px;
+    height: fit-content;
+}
+.doneList{
+    width: 100%;
+    background: white;
+    min-height: 200px;
+    height: fit-content;
+}
+.divTodoHeader{
+    background: white;
+}
+.divTodoList{
+
+}
+.divTodoList ul li{
+    list-style-type: none;
+    padding: 5px;
+    background: ghostwhite;
+    width: 90%;
+    height: auto;
+    margin-top: 5px;
+}
+.btnCompleted{
+
+}
+.btnInProcess{
+
+}
+.divLeftMargin{
+    width: 2%;
+    background: orange;
+}
+.divLeftMarginForInProgress{
+    width: 2%;
+    background: #3182ce;
+}
+.divLeftMarginForDone{
+    width:2%;
+    background: #6b46c1;
+}
+.divContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.divContainerForTaskName{
+    width: 77%;
+    height: auto;   
+}
+.divContainerForBtnAddTo{
+
+}
+.topHead{
+    height: 20vh;
+    background: #2a4365;
+}
+.topThinLine{
+    height: 15%;
+    background: #2b6cb0;
+}
+.topColorDiv{
+    height: 85%;
+    position: relative;
+}
+.topColorDiv p{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    font-family: monospace;
+    font-style: italic;
+}
+.taskEnterFieldNAddBtn{
+    padding: 20px 20px 10px 20px;
+}
+.iptOfTask{
+    outline: none;
+    width: 230px;
+    border: 2px solid #2b6cb0;
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+.btnAdd{
+    background: #2b6cb0;
+    color: white;
+    outline: none;
+    border: 2px solid #2b6cb0;
+}
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
